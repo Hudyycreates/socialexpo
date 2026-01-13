@@ -60,4 +60,8 @@ st.write("[HAND PHONE TO THEM]")
 rating = st.text_input("How was the vibe? Rate from 1-10 or an Emoji: ")
 
 if rating:
-    st.write(f"
+    st.write(f"Nice! Logged a '{rating}' vibe. Thats one person closer to your goal")
+    st.write("Go get the next one! ")
+
+#When moving from terminal to web tool ie stremlit, we need to chane 'print' to st.text and 'input' to st.button so they
+#...can be more suitable for the website
