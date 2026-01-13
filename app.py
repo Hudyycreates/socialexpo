@@ -9,12 +9,25 @@ questions = [
         "I'm on a mission to meet 5 new people—are you usually a 'social' or 'leave me alone' type? 🤝",
         "If you won 1000 PLN right now, what's the first thing you're buying? 💸",
         "What's the best hidden spot on campus that nobody knows about? 🏫"
+        "What’s one small thing that can instantly make your day better?"
+        "⁠If you could have any job for just one day, what would it be?"
+        "⁠If you could visit one place in the world, where would it be?"
+        "⁠What’s one thing you like that you think I should try?"
+        ⁠"What’s the best compliment you’ve ever received?"
+         "⁠How do you think your friends would describe you?"
+ ⁠      ⁠ "If you were a man/woman for a day, what’s the first thing you’d do?"
+         "⁠What is something you’re obsessed with right now?"
+        "⁠What’s one thing about uni that always makes you laugh?"
+        "⁠What are you studying right now? Is that what you see yourself doing, or do you have another passion?"
     ]
+
+
 
 # --- ADDED LINE 1: This checks if we already have a question saved ---
 
 if "saved_question" not in st.session_state:
    st.session_state.saved_question = "Press the button to start"
+
 
 st.title("🚀 --- THE 5-PEOPLE CHALLENGE --- 🚀")
 st.write("Find someone, take a breath, and press ENTER to get your question.")
