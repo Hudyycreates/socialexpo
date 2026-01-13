@@ -27,7 +27,7 @@ questions = [
 if "saved_question" not in st.session_state:
     st.session_state.saved_question = "Press the button to start"
 
-# This is the memory for the counter we discussed
+# This is the memory part for the counter of people
 if "people_count" not in st.session_state:
     st.session_state.people_count = 0
 
